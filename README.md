@@ -1,2 +1,2 @@
-# deep-learning-music-generation
-Building an automatic music generation model through deep learning.
+# board-game-statistics
+Investigating statistics regarding board games.
