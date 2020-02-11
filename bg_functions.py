@@ -9,9 +9,9 @@ def category_combine(df, columns=None, final_column=None):
     columns: List of columns to be combined.
     final_column: Column that the rest of the columns will be combined into.
     """
-    for col in columns:
-        if col != final_column:
-            for i, row in df.iterrows():
-                if df.at[i, col] == 1:
-                    df.at[i, final_column] = 1
-            df.drop(columns=col, inplace=True)
+    df[final_column] = df.apply(lambda x: 1 if any(x[col] == 1
+                                for col in columns) else 0, axis=1)
+    if final_column in columns:
+        columns.remove(final_column)
+    df.drop(columns=columns, inplace=True)
+    
