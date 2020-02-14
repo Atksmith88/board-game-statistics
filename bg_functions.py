@@ -31,13 +31,16 @@ def create_model(estimator, X_train, y_train,
     Selected score(s) printed on screen.
     """
     estimator.fit(X_train, y_train)
-    y_pred = estimator.predict(X_test)
+    train_pred = estimator.predict(X_train)
+    test_pred = estimator.predict(X_test)
     print(estimator)
     for score in score:
         if score == 'MSE':
-            print('MSE:', mean_squared_error(y_test, y_pred))
+            print('Training MSE:', mean_squared_error(y_train, train_pred))
+            print('Testing MSE:', mean_squared_error(y_test, test_pred))
         elif score == 'R2':
-            print('R2:', r2_score(y_test, y_pred))
+            print('Training R2:', r2_score(y_train, train_pred))
+            print('Testing R2:', r2_score(y_test, test_pred))
         else:
             print('No valid score selected.') 
 
