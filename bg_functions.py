@@ -1,3 +1,4 @@
+import numpy as np
 from sklearn.metrics import r2_score, mean_squared_error
 from sklearn.model_selection import GridSearchCV
 
@@ -21,12 +22,12 @@ def category_combine(df, columns=None, final_column=None):
 def create_model(estimator, X_train, y_train,
                  X_test, y_test, score=['MSE', 'R2']):
     """Create a model from a given estimator.
-    
+
     INPUTS:
     estimator: Instantiated estimator for the model.
     X_train, X_test, y_train, y_test: Train/Test data to be used.
     score: List or single item for score output. (Default 'MSE' and 'R2').
-    
+
     OUTPUTS:
     Selected score(s) printed on screen.
     """
@@ -41,8 +42,13 @@ def create_model(estimator, X_train, y_train,
         elif score == 'R2':
             print('Training R2:', r2_score(y_train, train_pred))
             print('Testing R2:', r2_score(y_test, test_pred))
+        elif score == 'RMSE':
+            print('Training RMSE:', np.sqrt(mean_squared_error(y_train,
+                                            train_pred)))
+            print('Testing RMSE:', np.sqrt(mean_squared_error(y_test,
+                                           test_pred)))
         else:
-            print('No valid score selected.') 
+            print('No valid score selected.')
 
 
 def gridsearch_model(estimator, X_train, y_train, X_test, y_test, param_grid,
