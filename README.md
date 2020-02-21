@@ -184,26 +184,26 @@ Full analysis can be found in the [EDA/Feature Engineering notebook](eda_feature
 <details><summary><b>Visualizations</b></summary>
     <ul>
         <li><details><summary><b>Average Ratings by Weight and Playing Time</b></summary>
-            ![](images/rating_by_weight_time.png)
+            ![](/images/rating_by_weight_time.png)
         </details></li>
         <li><details><summary><b>Average Rating by Category</b></summary>
-            ![](images/rating_by_category.png)
+            ![](/images/rating_by_category.png)
         </details></li>
         <li><details><summary><b>Average Rating by Mechanic</b></summary>
-            ![](images/rating_by_mechanic.png)
+            ![](/images/rating_by_mechanic.png)
         </details></li>
         <li><details><summary><b>Base Features Correlation Matrix</b></summary>
-            ![](images/base_feature_corr.png)
+            ![](/images/base_feature_corr.png)
         </details></li>
         <li><details><summary><b>Category Correlation Matrix</b></summary>
-            ![](images/category_corr.png)
+            ![](/images/category_corr.png)
         </details></li>
         <li><details><summary><b>Mechanics Correlation Matrix</b></summary>
-            ![](images/mechanic_corr.png)
+            ![](/images/mechanic_corr.png)
         </details></li>
         <li><details><summary><b>Overall Correlation Matrix</b></summary><br>
             Due to the size of this image, it may need to be opened in a new tab to be able to fully investigate. To save you the trouble, the highest correlations cross-group are category_wargame and mechanic_hex_and_counter at 0.62, and category_negotiation and mechanic_trading at 0.57. Most other high correlations can be seen in the group-specific correlation matrices above. <br><br>
-            ![](images/total_corr.png)
+            ![](/images/total_corr.png)
         </details></li>
     </ul>
 </details>
@@ -239,11 +239,11 @@ Full analysis can be found in the [EDA/Feature Engineering notebook](eda_feature
                 <li>Training R2: 0.3518</li>
                 <li>Testing R2: 0.3377</li>
                 <li><details><summary>Residual Visualizations</summary>
-                    ![](images/normalized_resid.png) <br>
-                    ![](images/resid_dist.png)
+                    ![](/images/normalized_resid.png) <br>
+                    ![](/images/resid_dist.png)
                 </details></li>
                 <li><details><summary>Prediction Graph</summary>
-                    ![](images/predic_graph.png)
+                    ![](/images/predic_graph.png)
                 </details></li>
             </ul>
         </details></li>
