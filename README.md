@@ -7,8 +7,8 @@ This readme summarizes a project regarding the statistics of board games in orde
 * [Abstract](#Abstract)
 * [Results Summary](#Results-Summary)
 * [Dashboard](#Dashboard)
-* [Recommendations & Future Work](#Recommendations-%26-Future-Work)
-* [Files & Descriptions](#Files-%26-Descriptions)
+* [Recommendations & Future Work](#Recommendations-Future-Work)
+* [Files & Descriptions](#Files-Descriptions)
 * [Data Information](#Data-Information)
 * [Data Analysis](#Data-Analysis)
 * [Modeling](#Modeling)
@@ -47,6 +47,7 @@ Further information, along with residual graphs and the final predictor graph, c
 
 -------
 ## Recommendations & Future Work
+<a name="Recommendations-Future-Work" />
 <br>
 As the point of this project is to create a model that can predict the potential rating for a game, there aren't necessarily any recommendations outside of to continue creating board games to continue the "Board Game Golden Age" and increase the number and variability of games that are available.<br><br>
 
@@ -54,6 +55,7 @@ As for future work, I would like to go back and scrape my own data from Board Ga
 
 -------
 ## Files & Descriptions
+<a name="Files-Descriptions" />
 <br>
 <details><summary><b>Python Files</b></summary>
     
