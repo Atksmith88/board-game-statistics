@@ -46,16 +46,22 @@ Further information, along with residual graphs and the final predictor graph, c
 <br>
 
 -------
+
+<a name="Recommendations-Future-Work"></a>
+
 ## Recommendations & Future Work
-<a name="Recommendations-Future-Work" />
+
 <br>
 As the point of this project is to create a model that can predict the potential rating for a game, there aren't necessarily any recommendations outside of to continue creating board games to continue the "Board Game Golden Age" and increase the number and variability of games that are available.<br><br>
 
 As for future work, I would like to go back and scrape my own data from Board Game Geek, partly to grab any games that have been added since the last update to this particular dataset, as well as scrape user data including their ratings, to create a recommendation system for people looking to start or expand their board game collections.
 
 -------
+
+<a name="Files-Descriptions"></a>
+
 ## Files & Descriptions
-<a name="Files-Descriptions" />
+
 <br>
 <details><summary><b>Python Files</b></summary>
     
