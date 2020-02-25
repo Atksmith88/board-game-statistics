@@ -44,6 +44,7 @@ Further information, along with residual graphs and the final predictor graph, c
 -------
 ## Dashboard
 <br>
+Coming Soon!
 
 -------
 ## Recommendations & Future Work
@@ -75,6 +76,8 @@ As for future work, I would like to go back and scrape my own data from Board Ga
        * A CSV file containing records of board games after formatting, cleaning, and pruning in the [Data Exploration Notebook](data_exploration.ipynb).
    * <b>[final_data.csv](final_data.csv)</b>
        * A CSV file containing the remaining board game records after feature engineering and further pruning in the [EDA/Feature Engineering notebook](eda_feature_engineering.ipynb).
+   * <b>[board_game_statistics_presentation.pptx](board_game_statistics_presentation.pptx)</b>
+       * A Power Point Presentation file containing a non-technical presentation for this project.
 </details>
 
 -------
